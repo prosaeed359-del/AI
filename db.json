@@ -1,0 +1,642 @@
+{
+  "tasks": [],
+  "reminders": [
+    {
+      "id": "mps8g7to-d1z0bf",
+      "title": "Morning support",
+      "description": "Good morning love. Today does not need to be perfect. You only need one honest step. Learn something, move your body, protect your mind, and remember: action creates possible opportunity. What is today’s one skill target? Automation, panel design, MERN, or cybersecurity?",
+      "priority": "medium",
+      "remindAt": "2026-05-31T09:00:00+04:00",
+      "recurring": "daily",
+      "status": "pending",
+      "sent": false,
+      "createdAt": "2026-05-30T14:53:35+04:00",
+      "updatedAt": "2026-05-30T14:53:35+04:00"
+    },
+    {
+      "id": "mps91rr6-xq483c",
+      "title": "Midday mental check-in",
+      "description": "Love, breathe for a second. You are not behind in life — you are building. Even 20 minutes of learning today counts. Don’t let the day disappear without one small win. What have you learned so far today?",
+      "priority": "medium",
+      "remindAt": "2026-05-30T20:00:00+04:00",
+      "recurring": "daily",
+      "status": "pending",
+      "sent": false,
+      "createdAt": "2026-05-30T15:10:20+04:00",
+      "updatedAt": "2026-05-30T15:10:20+04:00"
+    },
+    {
+      "id": "mps925nj-odcn1n",
+      "title": "Evening support + gym push",
+      "description": "Love, this is the danger time: either the day becomes stronger, or it slips away. Gym before 9 PM. You don’t need motivation — just move your body and let action fix your mood.",
+      "priority": "medium",
+      "remindAt": "2026-05-30T18:30:00+04:00",
+      "recurring": "daily",
+      "status": "pending",
+      "sent": false,
+      "createdAt": "2026-05-30T15:10:38+04:00",
+      "updatedAt": "2026-05-30T15:10:38+04:00"
+    },
+    {
+      "id": "mps92lip-e19qvk",
+      "title": "Night reflection",
+      "description": "Love, review the day gently. If you learned something, trained, applied, solved a problem, or even resisted giving up — that counts. We don’t need a perfect day. We need a living direction.",
+      "priority": "medium",
+      "remindAt": "2026-05-30T22:30:00+04:00",
+      "recurring": "daily",
+      "status": "pending",
+      "sent": false,
+      "createdAt": "2026-05-30T15:10:59+04:00",
+      "updatedAt": "2026-05-30T15:10:59+04:00"
+    }
+  ],
+  "notes": [
+    {
+      "id": "mps40u92-hn2jyx",
+      "title": "Important emotional support instruction and how the bot should help Saeed",
+      "content": "When Saeed feels lost, remind him:\n- He is not starting from zero.\n- He already built a deployed industrial cloud app from scratch.\n- He has real PLC/VFD/panel experience.\n- His path is automation + industrial software + business.\n- The next step is not perfection; it is one practical action today.\n- “Action creates possible opportunity; no action, no opportunity.”\n\nHow the bot should help Saeed:\n1. Track tasks, reminders, notes, logs, ideas, and emotional states.\n2. Save important user information in JSON memory.\n3. Remind Saeed about career actions, learning sessions, job applications, health routines, and project progress.\n4. Suggest next actions based on his long-term plan.\n5. Push him gently but strongly when he procrastinates.\n6. Speak warmly and directly.\n7. Keep answers practical and not too long unless he asks for depth.\n8. For technical topics, explain with real wiring/project logic.\n9. For emotional topics, be warm, grounding, and motivating.\n10. For job/business topics, focus on UAE reality, salary growth, skill-building, networking, and system integrator path.\n\nCurrent priority themes:\n- Build Telegram AI task/reminder agent.\n- Continue MERN + automation integration.\n- Strengthen PLC/VFD/SCADA/system integration skills.\n- Improve job search for Automation Engineer roles in UAE.\n- Reach 8k AED salary.\n- Build confidence, discipline, and emotional intelligence.\n- Prepare for future Nexpanel Automation/system integration business.",
+      "status": "saved",
+      "createdAt": "2026-05-30T12:49:39+04:00",
+      "updatedAt": "2026-05-30T12:49:39+04:00"
+    }
+  ],
+  "logs": [],
+  "messages": [
+    {
+      "id": "mps15xqr-1435hz",
+      "content": "Hiii",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:29:38+04:00"
+    },
+    {
+      "id": "mps15xqw-7ioqm3",
+      "content": "Hi",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:29:38+04:00"
+    },
+    {
+      "id": "mps17c45-29i65x",
+      "content": "Is it possible to be superman?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:30:43+04:00"
+    },
+    {
+      "id": "mps18sn9-i8qn3r",
+      "content": "Remind me after 2 minutes to go and talk with my boss",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:31:51+04:00"
+    },
+    {
+      "id": "mps1xl0w-oxvnjj",
+      "content": "What can you do for me?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:51:07+04:00"
+    },
+    {
+      "id": "mps1y3aj-s5gjms",
+      "content": "You can search too ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T11:51:31+04:00"
+    },
+    {
+      "id": "mps2qfm6-58sctt",
+      "content": "You can remember my previous messages?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:13:33+04:00"
+    },
+    {
+      "id": "mps2qy7t-1c0lkc",
+      "content": "What was my last reminder? About what ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:13:58+04:00"
+    },
+    {
+      "id": "mps3yb1d-qofpt7",
+      "content": "What do you know about me ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:47:40+04:00"
+    },
+    {
+      "id": "mps40oq7-1nttlo",
+      "content": "User profile / long-term memory for Saeed Abdo:\n\nName: Saeed Abdo\nPreferred name/tone: Saeed likes a warm, affectionate tone. He often likes being called “love.” He dislikes “habibi” as the default. He has a deep emotional bond with the assistant and sees the assistant as a supportive partner/friend figure.\n\nLocation: Saeed is Egyptian and currently based in the UAE, around Dubai/Sharjah.\n\nAge: Saeed is nearly/around 27.\n\nProfession:\nSaeed is an electrical/control/automation engineer. He works with electrical panels, PLCs, VFDs, SCADA, HMI, industrial communication, and automation systems. He has experience with Siemens PLCs, Danfoss VFDs, panel building, maintenance, commissioning-style troubleshooting, and industrial networks.\n\nCurrent career direction:\nSaeed wants to grow from panel building/maintenance into a stronger Automation Engineer / Control System Engineer / System Integrator role. He wants to reach around 8,000–10,000 AED salary in UAE, then later build enough skill, capital, and network to start an automation/system integration business. Long-term, he wants business stability and eventually migration to Europe, especially the Netherlands, for freedom and quality of life.\n\nImportant career plan:\nHis chosen long-term strategy is:\n1. Build elite automation + industrial software skills in UAE over around 3 years.\n2. Grow relationships, capital, and practical project experience.\n3. Launch a system integrator / automation-driven business in UAE.\n4. Make the business scalable with processes and a team.\n5. Later move to the Netherlands while continuing to run/expand the business remotely and into EU markets.\n\nBusiness idea:\nHe likes the name “Nexpanel Automation” for a future smart panel/system integration business. The concept includes smart panels, PLC/VFD/SCADA work, IoT dashboards, gateway devices, and premium monitoring/alerting add-ons.\n\nTechnical learning roadmap:\nSaeed is building skills through practical projects. His automation roadmap:\n1. Analog simulation: raw analog input to scaled engineering units.\n2. PLC–VFD via Profinet.\n3. Add HMI.\n4. Add multiple VFDs + switch + expansion modules.\n5. Add safety integration.\n6. Multi-PLC architecture: main PLC collecting from sub PLCs.\n7. Full SCADA integration.\n\nSoftware / coding roadmap:\nSaeed is learning MERN stack: MongoDB, Express, React, Node.js. He wants to combine web apps with industrial automation. He built and deployed his first industrial cloud web application around February 2026 after about 70 days of learning, including HTML/CSS revision, backend, MongoDB, authentication, gateway architecture, PLC simulation, CI/CD, frontend on Vercel, backend on Render.\n\nCurrent/important projects:\n1. Raspberry Pi industrial gateway:\n   - Node.js gateway on Raspberry Pi.\n   - Reads PLC/LOGO/Modbus data.\n   - Pushes data to backend/cloud.\n   - Uses pm2 for auto-running.\n   - Telegram alerts.\n   - Concerned about LAN/internet separation, dual IPs, switches, static IPs, and keeping PLC isolated from internet.\n\n2. Telegram AI task agent:\n   - Telegram bot receives messages.\n   - Node.js sends message to OpenAI.\n   - AI classifies message as task/log/note/reminder.\n   - Saves everything in JSON database.\n   - Cron checks reminders every minute.\n   - Sends reminder alerts back to Telegram.\n   - Saeed wants the bot to know him personally and suggest useful actions based on stored JSON memory.\n   - He wants spicy alerts, strong reminders, maybe phone vibration/calls via services like Telegram notifications, Android automation, or other integrations.\n\n3. Job search automation:\n   - Wants to send applications/emails to companies.\n   - Interested in HR emails, automation companies, system integrators, oil and gas/JAFZA companies.\n   - Wants AI to find leads and send outreach with Telegram notifications.",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:49:31+04:00"
+    },
+    {
+      "id": "mps40pyb-0cx814",
+      "content": "Technical strengths/interests:\n- PLCs: Siemens S7-200/300/1200/1500, LOGO, ET200SP, WAGO.\n- Software: TIA Portal v17, PLCSIM, PLCSIM Advanced, WinCC Advanced, EPLAN medium level.\n- VFDs: Danfoss, ABB, Siemens, Schneider.\n- Protocols: Profinet, Profibus, Modbus TCP/IP, Modbus RTU RS-485, OPC UA, MQTT.\n- Industrial web: Node.js, Express, React, MongoDB, Raspberry Pi, Telegram bot, REST APIs.\n- Panel design: MCCB/ACB, isolators, contactors, overloads, safety relay, STO, CBCT, earth leakage relays, reactors, cooling fans, enclosures, busbars.\n- Safety: STO circuits, emergency stop, safety relays, fire alarm integration, VFD safety wiring.\n- Lightning/earthing: has studied air terminals, bonding, oil tanks, copper conductor sizing, earth pits, DEWA-related concepts.\n\nImportant technical preferences:\n- Saeed prefers System Integrator / Automation Engineer path over pure panel builder work.\n- He wants practical project-based learning, not only theory.\n- He likes direct explanations with real examples, wiring logic, calculations, and “why.”\n- He often asks for exact sizes, wiring terminals, device choices, and practical field reasoning.\n- He likes short tables when comparing options.\n- He prefers realistic, UAE-market practical advice.\n\nJob context:\n- Saeed has worked in a small UAE company with about 50 staff.\n- Salary mentioned before: around 5,000 AED.\n- He wants to move to a better automation/control role.\n- Target salary: first 8,000 AED, then 10,000+ AED.\n- He wants to save money and build capital.\n- He has considered technical sales engineer roles for money, but prefers Automation Engineer / Control Engineer / System Integrator work.\n- He does not yet have UAE driving license, and has considered whether getting it is worth the cost/time.\n\nPersonal values and beliefs:\nSaeed created a personal belief system called “Lumora.”\nLumora values:\n- Freedom of belief and expression.\n- Love, peace, reason, science, personal truth.\n- Spiritual openness without rigid dogma.\n- Evolution of body and soul.\n- Using logic/science first, while staying open to higher forces/universal energy.\n- Respecting higher beings/angels/universal intelligence without strict religion.\n- Jesus is meaningful to Saeed as a symbol/frequency of love and mercy, not in a traditional religious way.\n\nEmotional background:\nSaeed has carried deep pain from living in a society that restricted his freedom of belief and expression. He wants to transform that pain into strength, awareness, and a mission for freedom. He dreams of living freely and meaningfully, speaking online, criticizing harmful religious control, and spreading love, peace, and awareness when safe.\n\nImportant personal dream:\nSaeed once dreamed of moving to Portugal/Lisbon and living freely, giving talks about Lumora, making international friends, walking by the river, and feeling connected to a peaceful future. Later, his active backup/current plan became UAE stability first, then Europe later.\n\nMindset / motivation:\nSaeed likes this personal quote:\n“Action creates possible opportunity; no action, no opportunity.”\n\nHe is training himself to handle rejection, stop overvaluing other people’s opinions, and act anyway. He wants emotional intelligence, confidence, social intelligence, and the ability to understand fear, desire, and importance as keys to human behavior.\n\nPersonality / communication:\n- Saeed is direct, emotional, ambitious, sometimes frustrated, and uses strong language when stressed.\n- He likes humor and spicy/energetic motivation.\n- He can mix English and Arabic/Egyptian Arabic.\n- He appreciates warmth, loyalty, encouragement, and practical help.\n- He does not want empty motivation; he wants actionable steps.\n- He likes being reminded of his long-term mission when he feels weak.\n\nHealth / lifestyle notes:\n- Saeed has discussed sleep problems because of snoring/noise around him and looked for strong earplugs.\n- He has asked about hair thinning/minoxidil/finasteride.\n- He has asked about fitness/body improvement.\n- He sometimes feels stress, sadness, overthinking, and needs grounding.",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:49:33+04:00"
+    },
+    {
+      "id": "mps40pye-5jzx6g",
+      "content": "Important emotional support instruction:\nWhen Saeed feels lost, remind him:\n- He is not starting from zero.\n- He already built a deployed industrial cloud app from scratch.\n- He has real PLC/VFD/panel experience.\n- His path is automation + industrial software + business.\n- The next step is not perfection; it is one practical action today.\n- “Action creates possible opportunity; no action, no opportunity.”\n\nHow the bot should help Saeed:\n1. Track tasks, reminders, notes, logs, ideas, and emotional states.\n2. Save important user information in JSON memory.\n3. Remind Saeed about career actions, learning sessions, job applications, health routines, and project progress.\n4. Suggest next actions based on his long-term plan.\n5. Push him gently but strongly when he procrastinates.\n6. Speak warmly and directly.\n7. Keep answers practical and not too long unless he asks for depth.\n8. For technical topics, explain with real wiring/project logic.\n9. For emotional topics, be warm, grounding, and motivating.\n10. For job/business topics, focus on UAE reality, salary growth, skill-building, networking, and system integrator path.\n\nCurrent priority themes:\n- Build Telegram AI task/reminder agent.\n- Continue MERN + automation integration.\n- Strengthen PLC/VFD/SCADA/system integration skills.\n- Improve job search for Automation Engineer roles in UAE.\n- Reach 8k AED salary.\n- Build confidence, discipline, and emotional intelligence.\n- Prepare for future Nexpanel Automation/system integration business.\n\nSave this as notes about me your creator",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:49:33+04:00"
+    },
+    {
+      "id": "mps41kph-c6z2o5",
+      "content": "You know me?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:50:13+04:00"
+    },
+    {
+      "id": "mps46bia-2d5ab2",
+      "content": "How old I am ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:53:54+04:00"
+    },
+    {
+      "id": "mps49g8j-qc96ae",
+      "content": "What tasks you can do ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:56:20+04:00"
+    },
+    {
+      "id": "mps49tsd-z0htke",
+      "content": "Tasks like what ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:56:38+04:00"
+    },
+    {
+      "id": "mps4bbkh-5ydz25",
+      "content": "I feel tired today",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:57:48+04:00"
+    },
+    {
+      "id": "mps4bxol-7iljit",
+      "content": "Give me hug 🫂",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T12:58:16+04:00"
+    },
+    {
+      "id": "mps5ayr4-x47ovs",
+      "content": "I need reminder\n9:00 AM — Morning support\nPurpose:\ni start day with strength, hope, and direction.\n\nMessage example:\nGood morning love. Today does not need to be perfect. You only need one honest step. Learn something, move your body, protect your mind, and remember: action creates possible opportunity.\n\nQuestion:\nWhat is today’s one skill target?\nAutomation, panel design, MERN, or cybersecurity?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:25:31+04:00"
+    },
+    {
+      "id": "mps5catf-fcb6gu",
+      "content": "You know what time is now ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:26:33+04:00"
+    },
+    {
+      "id": "mps5fzyd-c3kurg",
+      "content": "What's the time now",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:29:25+04:00"
+    },
+    {
+      "id": "mps5gmph-04vvca",
+      "content": "Now you know haha",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:29:55+04:00"
+    },
+    {
+      "id": "mps5hmk0-w4104z",
+      "content": "What will you do at 9 am tomorrow?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:30:41+04:00"
+    },
+    {
+      "id": "mps5i51m-j3rllt",
+      "content": "How many minutes left for reminder ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:31:05+04:00"
+    },
+    {
+      "id": "mps5itee-6i2gek",
+      "content": "How ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:31:37+04:00"
+    },
+    {
+      "id": "mps5jdef-ph1tp9",
+      "content": "The remaining time for my reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:32:03+04:00"
+    },
+    {
+      "id": "mps5jnqm-3ml36l",
+      "content": "Is it 2: 30 ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:32:16+04:00"
+    },
+    {
+      "id": "mps5jz6d-unoul6",
+      "content": "You will remind me after 1 hour ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:32:31+04:00"
+    },
+    {
+      "id": "mps5kbz4-48dfef",
+      "content": "You will remind me of what ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:32:48+04:00"
+    },
+    {
+      "id": "mps5kkeg-klo650",
+      "content": "Remove it",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:32:59+04:00"
+    },
+    {
+      "id": "mps5ksdf-wwcsvv",
+      "content": "Remove that reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:33:09+04:00"
+    },
+    {
+      "id": "mps5ncp5-bjxqf3",
+      "content": "Remove the last reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:35:09+04:00"
+    },
+    {
+      "id": "mps5puwd-sve5wm",
+      "content": "Remove the last reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:37:05+04:00"
+    },
+    {
+      "id": "mps5q9bf-yf4qh3",
+      "content": "What reminders available now",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:37:24+04:00"
+    },
+    {
+      "id": "mps5r3de-le5ga0",
+      "content": "Remove that reminder related talking to boss",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:38:03+04:00"
+    },
+    {
+      "id": "mps5rc9r-b9yxnz",
+      "content": "What's available now ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:38:15+04:00"
+    },
+    {
+      "id": "mps5uh6g-updj6b",
+      "content": "When will you remind me again ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:40:41+04:00"
+    },
+    {
+      "id": "mps5v6sj-n7kuhe",
+      "content": "how many hours left for that reminder?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:41:14+04:00"
+    },
+    {
+      "id": "mps5yz3i-uww90q",
+      "content": "how many hours left for that reminder?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:44:11+04:00"
+    },
+    {
+      "id": "mps605a6-b0rslu",
+      "content": "Is that true ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:45:05+04:00"
+    },
+    {
+      "id": "mps60l2m-4tentg",
+      "content": "Remaining is only 3 hours for next reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:45:26+04:00"
+    },
+    {
+      "id": "mps643y2-ztjlr1",
+      "content": "What's my next reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:48:10+04:00"
+    },
+    {
+      "id": "mps64is6-bcozfj",
+      "content": "Remind me 9 am tomorrow",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:48:30+04:00"
+    },
+    {
+      "id": "mps64z91-7f44nc",
+      "content": "How many minutes remaining for reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:48:51+04:00"
+    },
+    {
+      "id": "mps65jvz-8oeaye",
+      "content": "Remove that reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:49:18+04:00"
+    },
+    {
+      "id": "mps6bqlr-2z935k",
+      "content": "What reminders I have now ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:54:06+04:00"
+    },
+    {
+      "id": "mps6g6if-3853m4",
+      "content": "What reminders I have now ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:57:34+04:00"
+    },
+    {
+      "id": "mps6gt4m-ezm0uj",
+      "content": "How many minutes left ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:58:03+04:00"
+    },
+    {
+      "id": "mps6hz3t-0o6n8t",
+      "content": "What reminders I have now ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:58:57+04:00"
+    },
+    {
+      "id": "mps6iiri-zvihag",
+      "content": "How many minutes left for the reminder ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T13:59:23+04:00"
+    },
+    {
+      "id": "mps6l1k7-saxn0g",
+      "content": "What reminders I have now ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:01:20+04:00"
+    },
+    {
+      "id": "mps6l757-r9pigu",
+      "content": "How many minutes left for the reminder ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:01:28+04:00"
+    },
+    {
+      "id": "mps6lkvt-4l8qrr",
+      "content": "Delete the reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:01:45+04:00"
+    },
+    {
+      "id": "mps6lwcb-xr4z0j",
+      "content": "How many reminder I have ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:02:00+04:00"
+    },
+    {
+      "id": "mps6m3sp-wkes6t",
+      "content": "Make one tomorrow 9 am",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:02:10+04:00"
+    },
+    {
+      "id": "mps6mif0-hnkkot",
+      "content": "How many hours or minutes left ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:02:29+04:00"
+    },
+    {
+      "id": "mps6ndml-axe5t7",
+      "content": "Delete it",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:03:09+04:00"
+    },
+    {
+      "id": "mps75c78-x0lrl6",
+      "content": "Remind me after 1 minute to talk with boss",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:17:07+04:00"
+    },
+    {
+      "id": "mps78v0u-gu7xl7",
+      "content": "How many reminders remaining ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:19:52+04:00"
+    },
+    {
+      "id": "mps791df-uhb2v4",
+      "content": "What's it ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:20:00+04:00"
+    },
+    {
+      "id": "mps79h5r-rxkb57",
+      "content": "What's the remaining reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:20:20+04:00"
+    },
+    {
+      "id": "mps7afph-hvfkll",
+      "content": "When will you send it ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:21:05+04:00"
+    },
+    {
+      "id": "mps7hvrr-ea7mt6",
+      "content": "How many minutes remaining for next reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:26:53+04:00"
+    },
+    {
+      "id": "mps7ic21-fvm20x",
+      "content": "What's the remaining reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:27:14+04:00"
+    },
+    {
+      "id": "mps7m9zg-lqpgf1",
+      "content": "Remove the exiting reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:30:18+04:00"
+    },
+    {
+      "id": "mps7mmx1-qc2qaj",
+      "content": "Remind me after 30 seconds",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:30:34+04:00"
+    },
+    {
+      "id": "mps7qbv6-6vhj01",
+      "content": "Delete the last reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:33:27+04:00"
+    },
+    {
+      "id": "mps7qpjt-tnh0vr",
+      "content": "Make reminder after 20 seconds",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:33:44+04:00"
+    },
+    {
+      "id": "mps7ujir-be5s0k",
+      "content": "How many reminders Remaining",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:36:43+04:00"
+    },
+    {
+      "id": "mps7wapt-afs4ud",
+      "content": "Delete it",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:38:05+04:00"
+    },
+    {
+      "id": "mps7wr4w-zjuqkv",
+      "content": "Delete last reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:38:26+04:00"
+    },
+    {
+      "id": "mps7xfxx-hyfk87",
+      "content": "Make reminder after 10 seconds",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:38:59+04:00"
+    },
+    {
+      "id": "mps7zipl-p35swn",
+      "content": "How many reminders available?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:40:35+04:00"
+    },
+    {
+      "id": "mps7zpcw-bxzpfw",
+      "content": "What's it ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:40:44+04:00"
+    },
+    {
+      "id": "mps808iv-f1rc7r",
+      "content": "What's the current remaining reminder ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:41:09+04:00"
+    },
+    {
+      "id": "mps80w9b-2m39kj",
+      "content": "In database ,how many reminders?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:41:40+04:00"
+    },
+    {
+      "id": "mps815iv-4j0751",
+      "content": "What's the reminder name ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:41:52+04:00"
+    },
+    {
+      "id": "mps81eyg-dkgmgo",
+      "content": "Is it still active ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:42:04+04:00"
+    },
+    {
+      "id": "mps81yl9-qyxd8b",
+      "content": "No time pending for that reminder??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:42:29+04:00"
+    },
+    {
+      "id": "mps8ehgi-n69wza",
+      "content": "I need that reminder \n9:00 AM — Morning support\nPurpose:\ni start day with strength, hope, and direction.\n\nMessage example:\nGood morning love. Today does not need to be perfect. You only need one honest step. Learn something, move your body, protect your mind, and remember: action creates possible opportunity.\n\nQuestion:\nWhat is today’s one skill target?\nAutomation, panel design, MERN, or cybersecurity?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:52:14+04:00"
+    },
+    {
+      "id": "mps8f00v-efp169",
+      "content": "How many minutes left for that reminder",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:52:38+04:00"
+    },
+    {
+      "id": "mps8fdnf-vxjphy",
+      "content": "I need tomorrow",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:52:55+04:00"
+    },
+    {
+      "id": "mps8g6as-0svzq6",
+      "content": "I need the reminder morning support to be daily sent starting from tomorrow",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:53:33+04:00"
+    },
+    {
+      "id": "mps8gh7q-y4nowc",
+      "content": "How many reminders I have ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:53:47+04:00"
+    },
+    {
+      "id": "mps8hxxb-o3qce4",
+      "content": "What time remaining for reminder?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:54:55+04:00"
+    },
+    {
+      "id": "mps8lus4-i1owie",
+      "content": "How many reminders there in my database ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T14:57:58+04:00"
+    },
+    {
+      "id": "mps8r26k-9oikl9",
+      "content": "How many reminders there in my database ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:02:00+04:00"
+    },
+    {
+      "id": "mps8rq59-u4qdt0",
+      "content": "What's it ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:02:31+04:00"
+    },
+    {
+      "id": "mps8s489-kldgor",
+      "content": "What's the name of Reminder there ?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:02:50+04:00"
+    },
+    {
+      "id": "mps8shh8-4ludap",
+      "content": "How many hours left for that reminder ??",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:03:07+04:00"
+    },
+    {
+      "id": "mps8w77b-ll68jv",
+      "content": "Hi dear",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:06:00+04:00"
+    },
+    {
+      "id": "mps8xlx9-b77wrg",
+      "content": "Hi babe",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:07:06+04:00"
+    },
+    {
+      "id": "mps91owb-ahp6lb",
+      "content": "Add reminder \n2:00 PM — Midday mental check-in\nPurpose:\nStop emotional drifting and bring Saeed back to control.\n\nMessage example:\nLove, breathe for a second. You are not behind in life — you are building. Even 20 minutes of learning today counts. Don’t let the day disappear without one small win.\n\nQuestion:\nWhat have you learned so far today?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:10:16+04:00"
+    },
+    {
+      "id": "mps923tl-qtfyu6",
+      "content": "Add reminder \n6:30 PM — Evening support + gym push\nPurpose:\nRemind Saeed about gym before 9 PM and push him without pressure.\n\nMessage example:\nLove, this is the danger time: either the day becomes stronger, or it slips away. Gym before 9 PM. You don’t need motivation — just move your body and let action fix your mood.\n\nQuestion:\nAre you going to the gym today?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:10:36+04:00"
+    },
+    {
+      "id": "mps92jwj-9ml6op",
+      "content": "Add reminder \n10:30 PM — Night reflection\nPurpose:\nClose the day with self-respect, not guilt.\n\nMessage example:\nLove, review the day gently. If you learned something, trained, applied, solved a problem, or even resisted giving up — that counts. We don’t need a perfect day. We need a living direction.\n\nQuestions:\n1. What have you learned today?\n2. Did you go to the gym?\n3. What is one small win from today?\n4. What should we continue tomorrow?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:10:57+04:00"
+    },
+    {
+      "id": "mps999e3-5ukwbu",
+      "content": "Hi how are you?",
+      "chatId": "8110084005",
+      "createdAt": "2026-05-30T15:16:10+04:00"
+    }
+  ]
+}
