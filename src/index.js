@@ -10,12 +10,23 @@ const reminderService = require('./services/reminderService');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// Required for Telegram webhook updates
+app.use(express.json());
+
+// Keep-alive ping to prevent Render from sleeping
+const keepAlive = () => {
+  setInterval(async () => {
+    try {
+      await fetch('https://ai-2q2t.onrender.com', { method: 'HEAD' });
+      console.log('Keep-alive ping sent');
+    } catch (error) {
+      console.error('Keep-alive ping failed:', error.message);
+    }
+  }, 5 * 60 * 1000); // Every 5 minutes
+};
+
 app.get('/', (req, res) => {
   res.send('Saeed AI Telegram bot is running ✅');
-});
-
-app.listen(PORT, () => {
-  console.log(`Health server running on port ${PORT}`);
 });
 
 /**
@@ -47,9 +58,23 @@ const main = async () => {
   // Start the reminder scheduler (cron runs every minute)
   reminderService.startReminderScheduler();
 
-  // Start the Telegram bot
+  // Start the Telegram bot with webhook
   console.log('Starting Telegram bot...');
-  telegramService.startBot();
+  const { bot, webhookPath } = await telegramService.startBot();
+
+  // Mount Telegram webhook route after bot is initialized
+  app.post(webhookPath, (req, res) => {
+    bot.handleUpdate(req.body, res);
+  });
+  console.log(`Telegram webhook route mounted at ${webhookPath}`);
+
+  // Start keep-alive pings to keep Render awake
+  keepAlive();
+
+  // Start the server
+  app.listen(PORT, () => {
+    console.log(`Health server running on port ${PORT}`);
+  });
 
   console.log('Personal AI Agent is running!');
   console.log(`Timezone: ${config.timezone}`);

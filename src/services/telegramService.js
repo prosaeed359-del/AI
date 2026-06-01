@@ -6,10 +6,13 @@ const databaseService = require('./databaseService');
 // Initialize Telegraf bot
 const bot = new Telegraf(config.telegramBotToken);
 
+// Webhook path for Telegram
+const TELEGRAM_WEBHOOK_PATH = '/telegram-webhook';
+
 /**
- * Start the Telegram bot and set up message handlers
+ * Start the Telegram bot with webhook
  */
-const startBot = () => {
+const startBot = async () => {
   // Handle /start command
   bot.command('start', (ctx) => {
     ctx.reply('Hello! I am your personal AI assistant. Send me a message and I will help you manage tasks, reminders, notes, and more!');
@@ -46,9 +49,14 @@ const startBot = () => {
     console.error('Telegram Bot Error:', err.message);
   });
 
-  // Start the bot
+  // Set webhook URL
+  const webhookUrl = `https://ai-2q2t.onrender.com${TELEGRAM_WEBHOOK_PATH}`;
+  await bot.telegram.setWebhook(webhookUrl);
+  console.log(`Telegram webhook set to: ${webhookUrl}`);
+
+  // Start the bot using webhook
   bot.launch().then(() => {
-    console.log('Telegram bot started successfully');
+    console.log('Telegram bot started successfully with webhook');
   }).catch((err) => {
     console.error('Failed to start Telegram bot:', err.message);
   });
@@ -56,6 +64,9 @@ const startBot = () => {
   // Enable graceful stop
   process.once('SIGINT', () => bot.stop('SIGINT'));
   process.once('SIGTERM', () => bot.stop('SIGTERM'));
+
+  // Return the bot and webhook path for Express router setup
+  return { bot, webhookPath: TELEGRAM_WEBHOOK_PATH };
 };
 
 /**
@@ -79,5 +90,6 @@ const sendOwnerMessage = async (message) => {
 
 module.exports = {
   startBot,
-  sendOwnerMessage
+  sendOwnerMessage,
+  TELEGRAM_WEBHOOK_PATH
 };
