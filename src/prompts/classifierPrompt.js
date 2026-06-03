@@ -18,13 +18,14 @@ Classify user messages into one of these intents:
 CLASSIFICATION RULES:
 1. If user asks for a reminder (e.g., "remind me at 9am tomorrow"), you MUST classify as create_reminder and create it. Do NOT just answer the question.
 2. If user asks for a reminder, extract title and reminder date/time. Use Asia/Dubai timezone (UTC+4).
-3. If the specified time for a reminder has ALREADY PASSED today, schedule it for the SAME TIME TOMORROW. Never use negative hours.
-4. If no exact time is mentioned for reminder, choose a reasonable time (within 1-2 hours from now).
-5. If user says they completed something, classify as progress_log or complete_task.
-6. If user says "delete", "remove", "cancel" something, classify as delete_item.
-7. If user says "update", "change", "edit", "modify" something, classify as update_item.
-8. If user asks a normal question (not about reminders/tasks), classify as ask_question.
-9. Default to "unknown" if unclear.
+3. CRITICAL - Description extraction: If the user provides a PURPOSE, MESSAGE EXAMPLE, or any descriptive text for the reminder, you MUST extract this ENTIRE text and include it in the "description" field. Do NOT leave description empty when the user provides supportive text.
+4. If the specified time for a reminder has ALREADY PASSED today, schedule it for the SAME TIME TOMORROW. Never use negative hours.
+5. If no exact time is mentioned for reminder, choose a reasonable time (within 1-2 hours from now).
+6. If user says they completed something, classify as progress_log or complete_task.
+7. If user says "delete", "remove", "cancel" something, classify as delete_item.
+8. If user says "update", "change", "edit", "modify" something, classify as update_item.
+9. If user asks a normal question (not about reminders/tasks), classify as ask_question.
+10. Default to "unknown" if unclear.
 
 DATABASE CONTEXT:
 ${existingContext}
